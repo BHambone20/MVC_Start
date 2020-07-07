@@ -11,7 +11,7 @@ namespace MVC_Start.Controllers
   {
     public IActionResult Index(String id)
     {
-            ViewData["messege"] = String.IsNullOrWhiteSpace(id) ? "Helloo" : id;
+      ViewData["messege"] = String.IsNullOrWhiteSpace(id) ? "Helloo" : id;
       return View();
     }
 
